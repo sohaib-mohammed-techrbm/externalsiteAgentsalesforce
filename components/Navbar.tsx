@@ -27,9 +27,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group">
             <div className="w-10 h-10 bg-salesforce rounded-lg flex items-center justify-center transform group-hover:rotate-12 transition-transform">
-              <span className="text-white font-black text-xl italic">{COMPANY_CONFIG.logoText}</span>
+              {/* <span className="text-white font-black text-xl italic">{COMPANY_CONFIG.logoText}</span> */}
             </div>
-            <span className="text-2xl font-bold text-navy tracking-tight">{COMPANY_CONFIG.name.split('Ai')[0]}<span className="text-salesforce">Ai</span></span>
+            {/* <span className="text-2xl font-bold text-navy tracking-tight">{COMPANY_CONFIG.name.split('Ai')[0]}<span className="text-salesforce">Ai</span></span> */}
           </Link>
 
           {/* Desktop Nav */}
